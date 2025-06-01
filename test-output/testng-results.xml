@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-05-24T09:05:52 IST" name="Default suite" finished-at="2025-05-24T09:06:56 IST" duration-ms="63244">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1@707194ba]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-05-24T09:05:52 IST" name="Default test" finished-at="2025-05-24T09:06:56 IST" duration-ms="63244">
+      <class name="tests.Runner1">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.Runner1@707194ba]" started-at="2025-05-24T09:05:53 IST" name="setUpClass" finished-at="2025-05-24T09:05:53 IST" duration-ms="729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2555a986]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1@707194ba]" started-at="2025-05-24T09:05:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-24T09:06:02 IST" duration-ms="8647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Title testing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["cricbuz E2E test for given test data in sentences"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test case passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1@707194ba]" started-at="2025-05-24T09:06:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-24T09:06:11 IST" duration-ms="9293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Total runs value testing, here test data in sentences as int and string types"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["cricbuz E2E test for given test data in sentences"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1@707194ba]" started-at="2025-05-24T09:06:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-24T09:06:19 IST" duration-ms="7392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Specific player Runs value testing, here test data in sentences as int and string types"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["cricbuz E2E test for given test data in sentences"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1@707194ba]" started-at="2025-05-24T09:06:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-24T09:06:26 IST" duration-ms="7529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Specific player Runs value testing using test data as Docstring in sentences"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["cricbuz E2E test for given test data in sentences"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1@707194ba]" started-at="2025-05-24T09:06:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-24T09:06:33 IST" duration-ms="6776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Total runs value testing in Data-driven approach"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["cricbuzz E2E test for given test data in sentences"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1@707194ba]" started-at="2025-05-24T09:06:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-24T09:06:40 IST" duration-ms="6678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Total runs value testing in Data-driven approach"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["cricbuzz E2E test for given test data in sentences"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1@707194ba]" started-at="2025-05-24T09:06:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-24T09:06:47 IST" duration-ms="7217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Total runs value testing in Data-driven approach"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["cricbuzz E2E test for given test data in sentences"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1@707194ba]" started-at="2025-05-24T09:06:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-24T09:06:56 IST" duration-ms="8831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Total value testing with cross browser using data table and examples concept"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["cricbuz E2E test for given test data in sentences"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.Runner1@707194ba]" started-at="2025-05-24T09:06:56 IST" name="tearDownClass" finished-at="2025-05-24T09:06:56 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.Runner1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

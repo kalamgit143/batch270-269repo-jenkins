@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite">
+  <test  parallel="classes" thread-count="3" name="Features parallel">
+    <classes>
+    	<class name="tests.Runner6ForFeature1"></class>
+    	<class name="tests.Runner6ForFeature2"></class>
+    	<class name="tests.Runner6ForFeature3"></class>
+    </classes>
+  </test> 
+</suite> 

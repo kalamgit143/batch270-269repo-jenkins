@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Parallel test suite</th></tr>
+<tr><td><a href="#t0">Features parallel</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">50,086</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Parallel test suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Features parallel &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.Runner6ForFeature1</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1748665211026</td><td rowspan="1">15955</td></tr><tr class="failedodd"><td rowspan="2">tests.Runner6ForFeature3</td><td><a href="#m1">runScenario</a></td><td rowspan="2">1748665234269</td><td rowspan="2">22897</td></tr><tr class="failedodd"><td><a href="#m2">runScenario</a></td></tr><tr><th colspan="4">Features parallel &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.Runner6ForFeature1</td><td><a href="#m3">runScenario</a></td><td rowspan="3">1748665226984</td><td rowspan="3">6999</td></tr><tr class="passedeven"><td><a href="#m4">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m5">runScenario</a></td></tr><tr class="passedodd"><td rowspan="6">tests.Runner6ForFeature2</td><td><a href="#m6">runScenario</a></td><td rowspan="6">1748665229036</td><td rowspan="6">9249</td></tr><tr class="passedodd"><td><a href="#m7">runScenario</a></td></tr><tr class="passedodd"><td><a href="#m8">runScenario</a></td></tr><tr class="passedodd"><td><a href="#m9">runScenario</a></td></tr><tr class="passedodd"><td><a href="#m10">runScenario</a></td></tr><tr class="passedodd"><td><a href="#m11">runScenario</a></td></tr><tr class="passedeven"><td rowspan="2">tests.Runner6ForFeature3</td><td><a href="#m12">runScenario</a></td><td rowspan="2">1748665225128</td><td rowspan="2">9140</td></tr><tr class="passedeven"><td><a href="#m13">runScenario</a></td></tr></tbody>
+</table>
+<h2>Features parallel</h2><h3 id="m0">tests.Runner6ForFeature1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Title testing&quot;</td><td>&quot;cricbuz E2E test for given test data in sentences&quot;</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages">Test case failed<br/>Please see attached screenshot:<br/><a href="E:\batch269API\org.magnitia9.BDD5-cricbuzUIandAPIE2ETestNG-DI\target\31-May-2025-09-50-20-582.png"><img src="E:\batch269API\org.magnitia9.BDD5-cricbuzUIandAPIE2ETestNG-DI\target\31-May-2025-09-50-20-582.png" height="100" width="100"/></a></div></td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: null
+	at gluecode.StepDef1.i_should_see_in_the_title_of_scorecard_page(StepDef1.java:75)
+	at ✽.I should see &quot;India vs Pakistan&quot; in the title of scorecard page(file:///E:/batch269API/org.magnitia9.BDD5-cricbuzUIandAPIE2ETestNG-DI/src/test/resources/features/feature1.feature:8)
+... Removed 2 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.Runner6ForFeature3#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Total value testing with cross browser using data table and examples concept&quot;</td><td>&quot;cricbuz E2E test for given test data in sentences&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.RuntimeException: Invalid innings number
+	at gluecode.StepDef3.i_launch_cricbuz_site_and_connect_to_corresponding_api2(StepDef3.java:209)
+	at ✽.I launch cricbuz site and connect to corresponding API to check equality of total runs(file:///E:/batch269API/org.magnitia9.BDD5-cricbuzUIandAPIE2ETestNG-DI/src/test/resources/features/feature3.feature:18)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.Runner6ForFeature3#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Total value testing with cross browser using data table and examples concept&quot;</td><td>&quot;cricbuz E2E test for given test data in sentences&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: crashed.
+  (session not created: DevToolsActivePort file doesn&apos;t exist)
+  (The process started from msedge location C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe is no longer running, so msedgedriver is assuming that msedge has crashed.) 
+Host info: host: &apos;DESKTOP-RAPIJ62&apos;, ip: &apos;192.168.29.73&apos;
+Build info: version: &apos;4.14.0&apos;, revision: &apos;e5a96349ce&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at utilities.WebSiteUtility.openBrowser(WebSiteUtility.java:46)
+	at gluecode.StepDef4.i_open_browser(StepDef4.java:36)
+	at ✽.I open &quot;edge&quot; browser(file:///E:/batch269API/org.magnitia9.BDD5-cricbuzUIandAPIE2ETestNG-DI/src/test/resources/features/feature3.feature:16)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.Runner6ForFeature1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Total runs value testing, here test data in sentences as int and string types&quot;</td><td>&quot;cricbuz E2E test for given test data in sentences&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.Runner6ForFeature1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Specific player Runs value testing, here test data in sentences as int and string types&quot;</td><td>&quot;cricbuz E2E test for given test data in sentences&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.Runner6ForFeature1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Specific player Runs value testing using test data as Docstring in sentences&quot;</td><td>&quot;cricbuz E2E test for given test data in sentences&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.Runner6ForFeature2#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Total runs value testing in Data-driven approach&quot;</td><td>&quot;cricbuzz E2E test for given test data in sentences&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.Runner6ForFeature2#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Total runs value testing in Data-driven approach&quot;</td><td>&quot;cricbuzz E2E test for given test data in sentences&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.Runner6ForFeature2#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Runs value testing in Data-driven approach&quot;</td><td>&quot;cricbuzz E2E test for given test data in sentences&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.Runner6ForFeature2#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Total runs value testing in Data-driven approach&quot;</td><td>&quot;cricbuzz E2E test for given test data in sentences&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.Runner6ForFeature2#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Runs value testing in Data-driven approach&quot;</td><td>&quot;cricbuzz E2E test for given test data in sentences&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.Runner6ForFeature2#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Runs value testing in Data-driven approach&quot;</td><td>&quot;cricbuzz E2E test for given test data in sentences&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.Runner6ForFeature3#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Total value testing with cross browser using data table and examples concept&quot;</td><td>&quot;cricbuz E2E test for given test data in sentences&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.Runner6ForFeature3#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Total value testing using data table concept&quot;</td><td>&quot;cricbuz E2E test for given test data in sentences&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
