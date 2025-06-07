@@ -3,7 +3,7 @@ package tests;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-//Smoke testing(Run few basic positive scenarios)
+//Smoke testing(Run few basic positive scenarios to check stability of AUT)
 //Use "tags" in this class to run only "@smoke" tagged scenarios in all features
 @CucumberOptions(
 		features={"src/test/resources/features"},
