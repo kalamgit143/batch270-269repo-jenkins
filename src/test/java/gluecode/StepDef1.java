@@ -56,13 +56,13 @@ public class StepDef1
 		String actualtitle=sh.driver.getTitle();
 		if(actualtitle.contains(expectedtitle))
 		{
-			sh.se.log("Test case passed");
+			sh.se.log("Title Test case passed");
 			Reporter.log("Test case passed");
 		}
 		else
 		{
 			//For Cucumber reports
-			sh.se.log("Test case failed");			
+			sh.se.log("Title Test case failed");			
 			byte[] b=sh.driver.getScreenshotAs(OutputType.BYTES);
 			sh.se.attach(b, "image/png", "Screenshot of wrong title");
 			//For TestNG reports
